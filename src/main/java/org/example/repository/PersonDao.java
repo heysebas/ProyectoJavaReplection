@@ -1,5 +1,7 @@
 package org.example.repository;
 
-public class PersonDao {
-    
+import org.example.models.Person;
+
+public class PersonDao extends DaoGeneral<Person> {
+
 }
