@@ -1,4 +1,4 @@
-package org.example;
+package org.example.csv;
 
 import org.example.models.City;
 import org.example.models.Person;
@@ -18,6 +18,7 @@ public class Main {
         PersonDao personDao = new PersonDao();
         List<Person> persons = personDao.findAll();
         persons.forEach(System.out::println);
+
 
     }
 }
